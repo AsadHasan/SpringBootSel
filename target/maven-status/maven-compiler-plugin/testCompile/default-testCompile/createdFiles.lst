@@ -1,0 +1,6 @@
+helpers\PageHelper.class
+pageobjects\Homepage.class
+driverfactory\Browser.class
+pageobjects\PricingPage.class
+steps\PricingStepdefs.class
+CukesRunTest.class
