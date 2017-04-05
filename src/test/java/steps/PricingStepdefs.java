@@ -66,6 +66,19 @@ public class PricingStepdefs implements En {
         });
         When("^I choose \"([^\"]*)\"$", (String arg0) -> {
             switch (arg0){
+                case "2 parallel tests (Up to 5 users)":
+                    pricingPage.selectLiveOption();
+                    break;
+                case "4 parallel tests (Up to 10 users)":
+                    pricingPage.selectAutomateOption();
+                    break;
+                case "5 parallel tests (Up to 5 users)":
+                    pricingPage.selectAutomateProOption();
+                    break;
+            }
+        });
+        Then("^correct \"([^\"]*)\" is returned$", (String arg0) -> {
+       /*     switch (arg0){
                 case "Live":
                     pricingPage.selectLiveOption();
                     break;
@@ -75,11 +88,7 @@ public class PricingStepdefs implements En {
                 case "Automate Pro":
                     pricingPage.selectAutomateProOption();
                     break;
-            }
-        });
-        Then("^correct \"([^\"]*)\" is returned$", (String arg0) -> {
-            // Write code here that turns the phrase above into concrete actions
-            throw new PendingException();
+            }*/
         });
     }
 }

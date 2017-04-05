@@ -11,5 +11,5 @@ Feature: Pricing models
     Examples:
     |package|parallelTests|price|
     |Live   |2 parallel tests (Up to 5 users)|99|
-    |Automate|4parallel tests (Up to 10 users)|299|
+    |Automate|4 parallel tests (Up to 10 users)|299|
     |Automate Pro|5 parallel tests (Up to 5 users)|499|

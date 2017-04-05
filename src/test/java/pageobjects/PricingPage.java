@@ -23,12 +23,12 @@ public class PricingPage extends LoadableComponent{
     @FindBy(css =cssLive) private WebElement livePlanOption;
     @FindBy(css = "div.live-plan .chosen-container") private WebElement livePlanMenu;
 
-    private final String cssAutomate="div.live-plan li[data-option-array-index='2']";
-    @FindBy(css =cssLive) private WebElement automatePlanOption;
+    private final String cssAutomate="div.automate-plan li[data-option-array-index='2']";
+    @FindBy(css =cssAutomate) private WebElement automatePlanOption;
     @FindBy(css = "div.automate-plan .chosen-container") private WebElement automatePlanMenu;
 
-    private final String cssAutomatePro="div.live-plan li[data-option-array-index='2']";
-    @FindBy(css =cssLive) private WebElement automateProPlanOption;
+    private final String cssAutomatePro="div.automate-pro-plan li[data-option-array-index='2']";
+    @FindBy(css =cssAutomatePro) private WebElement automateProPlanOption;
     @FindBy(css = "div.automate-pro-plan .chosen-container") private WebElement automateProPlanMenu;
 
     private final String cssLivePrice="div.live-plan-section div.plan-price-section span";
