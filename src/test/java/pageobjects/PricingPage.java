@@ -1,21 +1,24 @@
 package pageobjects;
 
 import helpers.PageHelper;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.LoadableComponent;
+
+import static org.hamcrest.core.Is.is;
 
 /**
  * Created by Asad.Hasan on 24/03/2017.
  */
 
-public class PricingPage {
+public class PricingPage extends LoadableComponent{
 
     private WebDriver driver;
     private PageHelper pageHelper;
-  
+
     private final String cssLive="div.live-plan li[data-option-array-index='1']";
     @FindBy(css =cssLive) private WebElement livePlanOption;
     @FindBy(css = "div.live-plan .chosen-container") private WebElement livePlanMenu;
@@ -43,48 +46,45 @@ public class PricingPage {
         PageFactory.initElements(driver,this);
     }
 
+    @Override
+    protected void load(){
+        driver.get("https://www.browserstack.com/pricing");
+        pageHelper.maximise();
+    }
+
+    @Override
+    protected void isLoaded() throws Error{
+        String title = pageHelper.pageTitle();
+        Assert.assertThat("Not on the right page.", title.contains("BrowserStack Plans and Pricing"),is(true));
+    }
+
     public PricingPage selectLivePlan(){
-        pageHelper.wait(15)
-                .until(ExpectedConditions
-                .elementToBeClickable(livePlanMenu));
-        livePlanMenu.click();
+        pageHelper.click(livePlanMenu);
         return this;
     }
 
     public PricingPage selectLiveOption(){
-        pageHelper.wait(15)
-                .until(ExpectedConditions.elementToBeClickable(livePlanOption));
-        livePlanOption.click();
+        pageHelper.click(livePlanOption);
         return this;
     }
 
     public PricingPage selectAutomatePlan(){
-        pageHelper.wait(15)
-                .until(ExpectedConditions
-                        .elementToBeClickable(automatePlanMenu));
-        automatePlanMenu.click();
+        pageHelper.click(automatePlanMenu);
         return this;
     }
 
     public PricingPage selectAutomateOption(){
-        pageHelper.wait(15)
-                .until(ExpectedConditions.elementToBeClickable(automatePlanOption));
-        automatePlanOption.click();
+        pageHelper.click(automatePlanOption);
         return this;
     }
 
     public PricingPage selectAutomateProPlan(){
-        pageHelper.wait(15)
-                .until(ExpectedConditions
-                        .elementToBeClickable(automateProPlanMenu));
-        automateProPlanMenu.click();
+        pageHelper.click(automateProPlanMenu);
         return this;
     }
 
     public PricingPage selectAutomateProOption(){
-        pageHelper.wait(15)
-                .until(ExpectedConditions.elementToBeClickable(automateProPlanOption));
-        automateProPlanOption.click();
+        pageHelper.click(automateProPlanOption);
         return this;
     }
 

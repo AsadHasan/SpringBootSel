@@ -1,6 +1,8 @@
 package helpers;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
@@ -15,16 +17,17 @@ public class PageHelper {
         driver=drv;
     }
 
-    public WebDriverWait wait(int timeout){
-        wait=new WebDriverWait(driver,timeout);
-        return wait;
-    }
-
     public String pageTitle(){
         return driver.getTitle();
     }
 
     public void maximise(){
         driver.manage().window().maximize();
+    }
+
+    public void click(WebElement element){
+        wait=new WebDriverWait(driver,15);
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        element.click();
     }
 }

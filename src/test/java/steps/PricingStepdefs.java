@@ -26,37 +26,56 @@ public class PricingStepdefs implements En {
     @Before("@chrome")
     public void chrome(){
         driver=(WebDriver)appContext.getBean("getChrome");
-        homepage=new Homepage(driver);
+        pricingPage=new PricingPage(driver);
     }
 
     @Before("@phantom")
     public void phantom(){
         driver=(WebDriver)appContext.getBean("getPhantom");
-        homepage=new Homepage(driver);
+        pricingPage=new PricingPage(driver);
     }
 
     @Before("@edge")
     public void edge(){
         driver=(WebDriver)appContext.getBean("getEdge");
-        homepage=new Homepage(driver);
+        pricingPage=new PricingPage(driver);
     }
 
     @Before("@htmlunit")
     public void htmlunit(){
         driver=(WebDriver)appContext.getBean("getHtmlUnit");
-        homepage=new Homepage(driver);
+        pricingPage=new PricingPage(driver);
     }
 
     public PricingStepdefs() {
         Given("^I am on the pricing page$", () -> {
-            driver.get("https://www.browserstack.com/");
-            pricingPage=homepage.checkPricing();
+            pricingPage.get();
         });
         Given("^I select \"([^\"]*)\"$", (String arg0) -> {
-            pricingPage.selectLivePlan();
+            switch (arg0){
+                case "Live":
+                    pricingPage.selectLivePlan();
+                    break;
+                case "Automate":
+                    pricingPage.selectAutomatePlan();
+                    break;
+                case "Automate Pro":
+                    pricingPage.selectAutomateProPlan();
+                    break;
+            }
         });
         When("^I choose \"([^\"]*)\"$", (String arg0) -> {
-            pricingPage.selectLiveOption();
+            switch (arg0){
+                case "Live":
+                    pricingPage.selectLiveOption();
+                    break;
+                case "Automate":
+                    pricingPage.selectAutomateOption();
+                    break;
+                case "Automate Pro":
+                    pricingPage.selectAutomateProOption();
+                    break;
+            }
         });
         Then("^correct \"([^\"]*)\" is returned$", (String arg0) -> {
             // Write code here that turns the phrase above into concrete actions
