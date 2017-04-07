@@ -88,5 +88,15 @@ public class PricingPage extends LoadableComponent{
         return this;
     }
 
+    public String getLivePrice(){
+        return pageHelper.getText(livePrice);
+    }
 
+    public String getAutomatePrice(){
+        return pageHelper.getText(automatePrice);
+    }
+
+    public String getAutomateProPrice(){
+        return pageHelper.getText(automateProPrice);
+    }
 }

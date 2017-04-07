@@ -15,6 +15,7 @@ public class PageHelper {
 
     public PageHelper(WebDriver drv){
         driver=drv;
+        wait=new WebDriverWait(driver,15);
     }
 
     public String pageTitle(){
@@ -26,8 +27,12 @@ public class PageHelper {
     }
 
     public void click(WebElement element){
-        wait=new WebDriverWait(driver,15);
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.click();
+    }
+
+    public String getText(WebElement element){
+        wait.until(ExpectedConditions.visibilityOf(element));
+        return element.getText();
     }
 }

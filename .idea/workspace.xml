@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="797f0bc0-0e2e-4074-a0f3-066a573365ab" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/CukesRunTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-CukesRunTest.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/helpers/PageHelper.class" afterPath="$PROJECT_DIR$/target/test-classes/helpers/PageHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pageobjects/PricingPage.class" afterPath="$PROJECT_DIR$/target/test-classes/pageobjects/PricingPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/steps/PricingStepdefs.class" afterPath="$PROJECT_DIR$/target/test-classes/steps/PricingStepdefs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/helpers/PageHelper.java" afterPath="$PROJECT_DIR$/src/test/java/helpers/PageHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/PricingPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/PricingPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/steps/PricingStepdefs.java" afterPath="$PROJECT_DIR$/src/test/java/steps/PricingStepdefs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/Pricing.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/Pricing.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,30 +26,46 @@
       <file leaf-file-name="Pricing.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Pricing.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PricingPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PricingPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/PricingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="29" column="57" lean-forward="false" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+            <state relative-caret-position="33">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3034#3035#0" expanded="true" />
+                <element signature="e#3086#3087#0" expanded="true" />
+                <element signature="e#3125#3126#0" expanded="true" />
+                <element signature="e#3181#3182#0" expanded="true" />
+                <element signature="e#3223#3224#0" expanded="true" />
+                <element signature="e#3282#3283#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PricingStepdefs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PageHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helpers/PageHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PricingStepdefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/PricingStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+            <state relative-caret-position="444">
+              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +76,21 @@
       <file leaf-file-name="CukesRunTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CukesRunTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,12 +112,12 @@
         <option value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/1.5.2.RELEASE/spring-boot-test-1.5.2.RELEASE.jar!/org/springframework/boot/test/mock/mockito/MockitoAopProxyTargetInterceptor.class" />
         <option value="$PROJECT_DIR$/src/test/java/CukesRunTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/driverfactory/Browser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/helpers/PageHelper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/Homepage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Pricing.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/PricingStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/PricingPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/PricingStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/helpers/PageHelper.java" />
       </list>
     </option>
   </component>
@@ -373,7 +405,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
@@ -866,8 +898,8 @@
     <recent_temporary>
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.CukesRunTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PricingStepdefs" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Pricing" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Pricing" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PricingStepdefs" />
       </list>
     </recent_temporary>
   </component>
@@ -891,23 +923,11 @@
       <workItem from="1490947748625" duration="3885000" />
       <workItem from="1491206790466" duration="8445000" />
       <workItem from="1491294301523" duration="11317000" />
-      <workItem from="1491379594234" duration="14073000" />
+      <workItem from="1491379594234" duration="21194000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CukesRunTest - 2017.04.05 at 14h 43m 40s.xml">
-      <configuration name="CukesRunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunTest - 2017.04.05 at 14h 54m 05s.xml">
-      <configuration name="CukesRunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunTest - 2017.04.05 at 14h 56m 04s.xml">
-      <configuration name="CukesRunTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunTest - 2017.04.05 at 15h 24m 25s.xml">
-      <configuration name="CukesRunTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CukesRunTest - 2017.04.05 at 15h 45m 27s.xml">
       <configuration name="CukesRunTest" configurationId="JUnit" />
     </history-entry>
@@ -926,9 +946,21 @@
     <history-entry file="CukesRunTest - 2017.04.05 at 15h 57m 10s.xml">
       <configuration name="CukesRunTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CukesRunTest - 2017.04.05 at 16h 56m 52s.xml">
+      <configuration name="CukesRunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunTest - 2017.04.07 at 14h 00m 22s.xml">
+      <configuration name="CukesRunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunTest - 2017.04.07 at 14h 02m 25s.xml">
+      <configuration name="CukesRunTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Feature__Pricing - 2017.04.05 at 16h 55m 37s.xml">
+      <configuration name="Feature: Pricing" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52671000" />
+    <option name="totallyTimeSpent" value="59792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1696" height="1026" extended-state="6" />
@@ -944,10 +976,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -990,7 +1022,7 @@
         <state relative-caret-position="408">
           <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1039,8 +1071,8 @@
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
+            <element signature="e#482#483#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1071,7 +1103,7 @@
         <state relative-caret-position="408">
           <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1307,32 +1339,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/PageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#439#440#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="72" column="21" lean-forward="false" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/Homepage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="38" column="108" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="108" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1424,40 +1436,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CukesRunTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="351">
+          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Pricing.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/PricingPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/PageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="29" column="57" lean-forward="false" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        <state relative-caret-position="527">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/PricingStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/PricingStepdefs.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CukesRunTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/PricingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3034#3035#0" expanded="true" />
+            <element signature="e#3086#3087#0" expanded="true" />
+            <element signature="e#3125#3126#0" expanded="true" />
+            <element signature="e#3181#3182#0" expanded="true" />
+            <element signature="e#3223#3224#0" expanded="true" />
+            <element signature="e#3282#3283#0" expanded="true" />
           </folding>
         </state>
       </provider>

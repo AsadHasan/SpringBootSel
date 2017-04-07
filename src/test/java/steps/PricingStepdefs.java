@@ -4,12 +4,15 @@ import cucumber.api.PendingException;
 import cucumber.api.java.Before;
 import cucumber.api.java8.En;
 import driverfactory.Browser;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import pageobjects.Homepage;
 import pageobjects.PricingPage;
+
+import static org.hamcrest.core.Is.is;
 
 /**
  * Created by Asad.Hasan on 24/03/2017.
@@ -78,17 +81,17 @@ public class PricingStepdefs implements En {
             }
         });
         Then("^correct \"([^\"]*)\" is returned$", (String arg0) -> {
-       /*     switch (arg0){
-                case "Live":
-                    pricingPage.selectLiveOption();
+            switch (arg0){
+                case "29":
+                    Assert.assertThat("Live price is wrong",pricingPage.getLivePrice(),is(arg0));
                     break;
-                case "Automate":
-                    pricingPage.selectAutomateOption();
+                case "299":
+                    Assert.assertThat("Automate price is wrong",pricingPage.getAutomatePrice(),is(arg0));
                     break;
-                case "Automate Pro":
-                    pricingPage.selectAutomateProOption();
+                case "499":
+                    Assert.assertThat("AutomatePro price is wrong",pricingPage.getAutomateProPrice(),is(arg0));
                     break;
-            }*/
+            }
         });
     }
 }
