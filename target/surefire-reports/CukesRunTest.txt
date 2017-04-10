@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: CukesRunTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.483 sec - in CukesRunTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.07 sec - in CukesRunTest
