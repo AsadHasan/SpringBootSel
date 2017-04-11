@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.LoadableComponent;
+import utility.Log;
 
 import static org.hamcrest.core.Is.is;
 
@@ -29,6 +30,7 @@ public class Homepage extends LoadableComponent{
 
     @Override
     protected void load(){
+        Log.info("Loading homepage");
         driver.get("https://www.browserstack.com/");
         pageHelper.maximise();
     }
